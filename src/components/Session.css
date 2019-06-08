@@ -1,0 +1,39 @@
+.session
+{
+    width: 100%;
+}
+
+.vote-buttons
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.vote-buttons i
+{
+    margin: 0;
+    padding: 16px;
+    border: 8px solid;
+    border-radius: 50%;
+}
+
+.i.red
+{
+    border-color: #db2828;
+}
+
+.i.green
+{
+    border-color: #21ba45;
+}
+
+.score
+{
+    position: absolute;
+    top: 32px;
+    left: 0;
+    right: 0;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}

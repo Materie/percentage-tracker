@@ -1,0 +1,55 @@
+.content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pointer
+{
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.pointer:active
+{
+    opacity: 0.7;
+}
+
+.start
+{
+    border-radius: 50%;
+    border-color: #21ba45;
+    border-width: 8px;
+    border-style: solid;
+    padding: 12px;
+    font-size: 72px;
+    color: #21ba45;
+}
+
+.start:active
+{
+    opacity: 0.7;
+}
+
+.end
+{
+    position: absolute;
+    bottom: 32px;
+
+    border-radius: 50%;
+    border-color: white;
+    border-width: 8px;
+    border-style: solid;
+    padding: 12px;
+    font-size: 32px;
+    color: white;
+}
+
+.end:active
+{
+    opacity: 0.7;
+}
