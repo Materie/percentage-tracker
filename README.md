@@ -2,4 +2,4 @@
 
 Pimsleur recommends you answer 80 percent correct on the challenges given throughout a lesson. This app helps you track that percentage by letting you add successes and failures to a running total, displaying your current percentage in real time.
 
-Working version at <pimsleur.materie.dev>.
+Working version at [pimsleur.materie.dev](https://pimsleur.materie.dev).
