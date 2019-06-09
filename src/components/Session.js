@@ -1,5 +1,5 @@
 import React from 'react';
-import './Session.css';
+import './Session.scss';
 import Button from './Button';
 
 class Session extends React.Component {
@@ -24,21 +24,6 @@ class Session extends React.Component {
     }
 
     render() {
-        //console.log(this.state);
-        /*
-
-        
-                    <i
-                        key="red"
-                        className="huge red thumbs down outline icon pointer"
-                        onClick={() => this.setState({ questions: [...this.state.questions, false]})}
-                    ></i>
-                    <i
-                        key="green"
-                        className="huge green thumbs up outline icon pointer"
-                        onClick={() => this.setState({ questions: [...this.state.questions, true]})}
-                    ></i>
-        */
         return (
             <div className="session">
                 {this.renderScore()}

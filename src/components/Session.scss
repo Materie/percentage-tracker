@@ -7,14 +7,13 @@
 {
     display: flex;
     justify-content: space-around;
-}
-
-.vote-buttons i
-{
-    margin: 0;
-    padding: 16px;
-    border: 8px solid;
-    border-radius: 50%;
+    i
+    {
+        margin: 0;
+        padding: 16px;
+        border: 8px solid;
+        border-radius: 50%;
+    }
 }
 
 .i.red

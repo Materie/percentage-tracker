@@ -12,11 +12,10 @@
     cursor: pointer;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
-}
-
-.pointer:active
-{
-    opacity: 0.7;
+    &:active
+    {
+        opacity: 0.7;
+    }
 }
 
 .start
@@ -28,11 +27,10 @@
     padding: 12px;
     font-size: 72px;
     color: #21ba45;
-}
-
-.start:active
-{
-    opacity: 0.7;
+    &:active
+    {
+        opacity: 0.7;
+    }
 }
 
 .end
@@ -47,9 +45,8 @@
     padding: 12px;
     font-size: 32px;
     color: white;
-}
-
-.end:active
-{
-    opacity: 0.7;
+    &:active
+    {
+        opacity: 0.7;
+    }
 }
